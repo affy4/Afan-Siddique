@@ -418,25 +418,19 @@
             
             <div class="contact-container">
                 <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn primary-btn">Send</button>
-                    </form>
-                </div>
+                    
+                <form action="mailto:bloomconsulting@gmail.com" method="POST" enctype="text/plain">
+  <label for="name">Name:</label><br>
+  <input type="text" name="name" placeholder="Your Name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" name="email" placeholder="Your Email" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+
+  <button type="submit">Send</button>
+                </form>
                 
                 <div class="contact-info">
                     <div class="contact-method">
@@ -477,8 +471,6 @@
   </style>
 </head>
 <body>
-
-  <p>Need help choosing your career path? Contact us below:</p>
 
   <!-- WhatsApp CTA -->
   <a
